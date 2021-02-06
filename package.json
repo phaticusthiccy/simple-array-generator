@@ -1,0 +1,28 @@
+{
+  "name": "simple-array-generator",
+  "version": "1.2.4",
+  "description": "Here are a few different ways to create an arra>
+  "main": "index.md",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "array"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaticusthiccy/simple-array-ge>
+  },
+  "keywords": [
+    "array",
+    "generator",
+    "simple",
+    "const"
+  ],
+  "author": "phaticusthiccy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phaticusthiccy/simple-array-genera>
+  },
+  "homepage": "https://github.com/phaticusthiccy/simple-array-gen>
+}
