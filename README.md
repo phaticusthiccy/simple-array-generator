@@ -15,14 +15,16 @@ for (let res of ARRAY_GEN(1,5)){
   console.log(res);
 }
 ```
+`Output:`
 
 ```json
 {
-    output:"""
+    "output": "
     1
     2
     3
     4
     5
-    """
+    "
 }
+
