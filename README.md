@@ -117,9 +117,9 @@ for (let n of RANGE_ITER(0,100)){
 ```
 `Output:`
 
-```json
+```
 {
-    "output": {
+    "output": "
     r_text[0] = "*%0*"
     r_text[1] = "*%1*"
     r_text[2] = "*%2*"
