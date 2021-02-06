@@ -1,10 +1,19 @@
 # Simple Array Generator
+<p align="center">
+  <a href="https://github.com/phaticusthiccy">
+    <img src="https://img.shields.io/badge/Powered%20by-Xenon-red?style=plastic&logo=appveyor">
+    
+  </a>
+  <a href="https://t.me/phaticusthiccy">
+    <img src="https://img.shields.io/badge/Contact-Me-patriot?style=plastic&logo=appveyor">
+  </a>
+</p>
 
 Here are a few different ways to create an array. So simple and fast.
 
-### Usage 1 *(Lower Bottom)*
-
 ##
+
+### Usage 1 *(Lower Bottom)*
 
 ```js
 const ARRAY_GEN = (x,y) => (function*(){
@@ -28,10 +37,9 @@ for (let res of ARRAY_GEN(1,5)){
     "
 }
 ```
+##
 
 ### Usage 2 *(Side by Side)*
-
-##
 
 ```js
 const ARRAY_GEN = (x,y) => Array.from((function*(){
@@ -47,6 +55,7 @@ console.log(ARRAY_GEN(1,5));
     "output": "[1, 2, 3, 4, 5]"
 }
 ```
+##
 
 ### Usage 3 *(Letters)*
 
