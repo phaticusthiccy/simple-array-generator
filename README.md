@@ -100,8 +100,8 @@ function range(s, e, str){
 
 ### TO-DO List
 
-- [X] More Array Generators
-- [x] Emoji Array Generator
-- [ ] Reverse Arrya Generator
+- [ ] More Array Generators
+- [ ] Emoji Array Generator
+- [x] Reverse Array Generator
 
 
