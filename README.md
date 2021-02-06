@@ -74,7 +74,7 @@ function range(s, e, str){
     str = 'abcdefghijklmnopqrstuvwxyz'
   const from = (!str) ? s : str.indexOf(s)
   const to = (!str) ? e : str.indexOf(e)
-  // Return fonction.
+  // Return function.
   return [...gen(from, to, str)]
 }
 
