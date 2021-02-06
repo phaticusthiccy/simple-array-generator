@@ -103,6 +103,31 @@ console.log(range('a', 'e').map(v=>v.toUpperCase()).reverse())
 ```
 ##
 
+### Only For [WhatsAsena 🐺](https://github.com/phaticusthiccy/WhatsAsenaDuplicated)
+##### Example: [asenapercentage.js](https://github.com/phaticusthiccy/simple-array-generator/blob/gh-pages/examples/asenapercentage.js)
+
+```js
+const RANGE_ITER = (x,y) => (function*(){
+  while (x <= y) yield x++;
+})();
+
+for (let n of RANGE_ITER(0,100)){
+  console.log('    r_text[' + n + '] = "*%' + n + '*";');
+}
+```
+`Output:`
+
+```json
+{
+    "output": "
+    r_text[0] = "*%0*"
+    r_text[1] = "*%1*"
+    r_text[2] = "*%2*"
+    ...
+    r_text[100] = "*%100*"
+}
+```
+
 ### TO-DO List
 
 - [ ] More Array Generators
