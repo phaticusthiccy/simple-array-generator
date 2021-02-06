@@ -14,6 +14,7 @@ Here are a few different ways to create an array. So simple and fast.
 ##
 
 ### Usage 1 *(Lower Bottom)*
+##### Example: [arraylower.js](https://github.com/phaticusthiccy/simple-array-generator/blob/gh-pages/examples/arraylower.js)
 
 ```js
 const ARRAY_GEN = (x,y) => (function*(){
@@ -40,6 +41,7 @@ for (let res of ARRAY_GEN(1,5)){
 ##
 
 ### Usage 2 *(Side by Side)*
+##### Example: [arraysidebyside.js](https://github.com/phaticusthiccy/simple-array-generator/blob/gh-pages/examples/arraysidebyside.js)
 
 ```js
 const ARRAY_GEN = (x,y) => Array.from((function*(){
@@ -58,6 +60,7 @@ console.log(ARRAY_GEN(1,5));
 ##
 
 ### Usage 3 *(Letters)*
+##### Example: [arrayletters.js](https://github.com/phaticusthiccy/simple-array-generator/blob/gh-pages/examples/arrayletters.js)
 
 ```js
 function range(s, e, str){
