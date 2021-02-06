@@ -1,37 +1,103 @@
-## Welcome to GitHub Pages
+# Simple Array Generator
+<p align="center">
+  <a href="https://github.com/phaticusthiccy">
+    <img src="https://img.shields.io/badge/Powered%20by-Xenon-red?style=plastic&logo=appveyor">
+    
+  </a>
+  <a href="https://t.me/phaticusthiccy">
+    <img src="https://img.shields.io/badge/Contact-Me-patriot?style=plastic&logo=appveyor">
+  </a>
+</p>
 
-You can use the [editor on GitHub](https://github.com/phaticusthiccy/simple-array-generator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Here are a few different ways to create an array. So simple and fast.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+##
 
-### Markdown
+### Usage 1 *(Lower Bottom)*
+##### Example: [arraylower.js](https://github.com/phaticusthiccy/simple-array-generator/blob/gh-pages/examples/arraylower.js)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```js
+const ARRAY_GEN = (x,y) => (function*(){
+  while (x <= y) yield x++;
+})();
 
-```markdown
-Syntax highlighted code block
+for (let res of ARRAY_GEN(1,5)){
+  console.log(res);
+}
+```
+`Output:`
 
-# Header 1
-## Header 2
-### Header 3
+```json
+{
+    "output": "
+    1
+    2
+    3
+    4
+    5
+    "
+}
+```
+##
 
-- Bulleted
-- List
+### Usage 2 *(Side by Side)*
+##### Example: [arraysidebyside.js](https://github.com/phaticusthiccy/simple-array-generator/blob/gh-pages/examples/arraysidebyside.js)
 
-1. Numbered
-2. List
+```js
+const ARRAY_GEN = (x,y) => Array.from((function*(){
+  while (x <= y) yield x++;
+})());
 
-**Bold** and _Italic_ and `Code` text
+console.log(ARRAY_GEN(1,5));
+```
+`Output:`
 
-[Link](url) and ![Image](src)
+```json
+{
+    "output": "[1, 2, 3, 4, 5]"
+}
+```
+##
+
+### Usage 3 *(Letters)*
+##### Example: [arrayletters.js](https://github.com/phaticusthiccy/simple-array-generator/blob/gh-pages/examples/arrayletters.js)
+
+```js
+function range(s, e, str){
+  function *gen(s, e, str){
+    while(s <= e){
+      yield (!str) ? s : str[s]
+      s++
+    }
+  }
+  if (typeof s === 'string' && !str)
+    str = 'abcdefghijklmnopqrstuvwxyz'
+  const from = (!str) ? s : str.indexOf(s)
+  const to = (!str) ? e : str.indexOf(e)
+  // Return fonction.
+  return [...gen(from, to, str)]
+}
+
+// console.log(range('a', 'e'))
+// For Lowercase
+// [ 'a', 'b', 'c', 'd', 'e' ]
+
+
+// console.log(range('a', 'e').map(v=>v.to.reverse())
+// For Lowercase and Reverse
+// [ 'e', 'd', 'c', 'b', 'a' ]
+
+
+// console.log(range('a', 'e').map(v=>v.toUpperCase()))
+// For Uppercase
+// [ 'A', 'B', 'C', 'D', 'E' ]
+
+
+// console.log(range('a', 'e').map(v=>v.toUpperCase()).reverse())
+// For Uppercase and Reverse
+// [ 'E', 'D', 'C', 'B', 'A' ]
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/phaticusthiccy/simple-array-generator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
