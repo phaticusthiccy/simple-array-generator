@@ -5,11 +5,11 @@
     
   </a>
   <a href="https://www.npmjs.com/package/simple-array-generator">
-    <img src="https://img.shields.io/npm/v/simple-array-generator&style=plastic">
+    <img src="https://img.shields.io/npm/v/simple-array-generator?style=for-the-badge">
     
   </a>
   <a href="https://t.me/phaticusthiccy">
-    <img src="https://img.shields.io/badge/Powered%20by-Xenon-red?style=plastic&logo=appveyor">
+    <img src="https://img.shields.io/badge/Contact-Me-patriot?style=plastic&logo=appveyor">
   </a>
 </p>
 
