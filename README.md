@@ -98,6 +98,10 @@ function range(s, e, str){
 // [ 'E', 'D', 'C', 'B', 'A' ]
 ```
 
+### TO-DO List
 
+- [X] More Array Generators
+- [x] Emoji Array Generator
+- [ ] Reverse Arrya Generator
 
 
