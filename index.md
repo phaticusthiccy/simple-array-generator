@@ -1,4 +1,5 @@
 # Simple Array Generator
+
 <p align="center">
   <a href="https://github.com/phaticusthiccy">
     <img src="https://img.shields.io/badge/Powered%20by-Xenon-red?style=plastic&logo=appveyor">
