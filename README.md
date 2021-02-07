@@ -25,8 +25,8 @@ const ARRAY_GEN = (x,y) => (function*(){
   while (x <= y) yield x++;
 })();
 
-for (let res of ARRAY_GEN(1,5)){
-  console.log(res);
+for (let array of ARRAY_GEN(1,5)){
+  console.log(array);
 }
 ```
 `Output:`
