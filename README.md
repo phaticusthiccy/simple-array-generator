@@ -103,6 +103,29 @@ console.log(range('a', 'e').map(v=>v.toUpperCase()).reverse())
 ```
 ##
 
+#### Usage 4 *(Custom Array)*
+##### Example: [customarray.js](https://github.com/phaticusthiccy/simple-array-generator/blob/gh-pages/examples/arrayletters.js)
+
+```js
+function custom(length, current) {
+  current = current ? current : '';
+  return length ? custom(--length, "0123456789ABC".charAt(Math.floor(Math.random() * 12)) + current) : current;
+}
+
+console.log(custom(23));
+// 61444806527072263711BB7
+
+/*
+  return length ? custom(--length, "01234".charAt(Math.floor(Math.random() * 5)) + current) : current;
+}
+
+console.log(custom(10));
+// 1421213324
+/*
+```
+
+##
+
 ## Only For [WhatsAsena 🐺](https://github.com/phaticusthiccy/WhatsAsenaDuplicated)
 ### Array Percent Generator
 ##### Example: [asenapercentage.js](https://github.com/phaticusthiccy/simple-array-generator/blob/gh-pages/examples/asenapercentage.js)
