@@ -121,7 +121,7 @@ console.log(custom(23));
 
 console.log(custom(10));
 // 1421213324
-/*
+*/
 ```
 
 ##
