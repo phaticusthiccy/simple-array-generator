@@ -103,7 +103,7 @@ console.log(range('a', 'e').map(v=>v.toUpperCase()).reverse())
 ```
 ##
 
-#### Usage 4 *(Custom Array)*
+### Usage 4 *(Custom Array)*
 ##### Example: [customarray.js](https://github.com/phaticusthiccy/simple-array-generator/blob/gh-pages/examples/arrayletters.js)
 
 ```js
