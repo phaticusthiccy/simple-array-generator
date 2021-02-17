@@ -144,11 +144,11 @@ for (let n of RANGE_ITER(0,100)){
 ```json
 {
     "output": "[(
-    r_text[0] = "*%0*"
-    r_text[1] = "*%1*"
-    r_text[2] = "*%2*"
+    r_text[0] = '*%0*'
+    r_text[1] = '*%1*'
+    r_text[2] = '*%2*'
     ...
-    r_text[100] = "*%100*")]"
+    r_text[100] = '*%100*')]"
 }
 ```
 
