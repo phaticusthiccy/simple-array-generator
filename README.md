@@ -31,17 +31,14 @@ for (let array of ARRAY_GEN(1,5)){
 ```
 `Output:`
 
-```json
-{
-    "output": "
+```
     1
     2
     3
     4
     5
-    "
-}
 ```
+
 ##
 
 ### Usage 2 *(Side by Side)*
@@ -56,10 +53,8 @@ console.log(ARRAY_GEN(1,5));
 ```
 `Output:`
 
-```json
-{
-    "output": "[1, 2, 3, 4, 5]"
-}
+```
+    1, 2, 3, 4, 5
 ```
 ##
 
@@ -141,15 +136,13 @@ for (let n of RANGE_ITER(0,100)){
 ```
 `Output:`
 
-```json
-{
-    "output": "[(
-    r_text[0] = '*%0*'
-    r_text[1] = '*%1*'
-    r_text[2] = '*%2*'
+```
+    r_text[0] = '*%0*';
+    r_text[1] = '*%1*';
+    r_text[2] = '*%2*';
     ...
-    r_text[100] = '*%100*')]"
-}
+    r_text[100] = '*%100*';
+
 ```
 
 ### TO-DO List
